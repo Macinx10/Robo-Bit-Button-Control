@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Dr2Dh?+NFX4foWta(NTT" x="0" y="0"><statement name="HANDLER"><block type="robobit_model" id="64ex]?IgJ)Use^L_F[9C"><field name="model">RBModel.Mk3</field></block></statement></block><block type="device_gesture_event" id="qzxg`F-R00L@l_n,T8]t" x="333" y="72"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="RBstop" id="95lk2]1hyVcuqWz0%tMT"><field name="mode">RBStopMode.Brake</field></block></statement></block><block type="input_logo_event" id="Q#GJ/IENkJhrt(K`vsr~" x="658" y="85"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="zOG~aG^{?)hJ=u$r6M3G"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="cq#93p!G*cKg~{GYMWR?"><value name="pause"><shadow type="timePicker" id="1GIVj/g-t@t5P!%AVY!L"><field name="ms">1000</field></shadow></value><next><block type="RBGoms" id="}%d#|!^=noH@lo4?R)5I"><field name="direction">RBDirection.Forward</field><value name="speed"><shadow type="math_number_minmax" id="t7n{D7T;DP#hjm(m}M,j"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">60</field></shadow></value><value name="milliseconds"><shadow type="math_number" id="9n2X68R2/Xs#UxT|7Vt7"><field name="NUM">2000</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="{-`~5W67sDgHCU1^IA5P" x="280" y="224"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="{7kkN@/?SQ4K[[)Kqcq`"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="o7l5n6*u4~aw@]uu8zX%"><value name="pause"><shadow type="timePicker" id="W?swG|zbX,TNX#e6;x4s"><field name="ms">1000</field></shadow></value><next><block type="RBRotatems" id="52+)DJciyYM_Z|)57}lY"><field name="direction">RBRobotDirection.Left</field><value name="speed"><shadow type="math_number_minmax" id="ppP2LwQQV*;T]4aU0SqQ"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">100</field></shadow></value><value name="milliseconds"><shadow type="math_number" id="RX@O},wNqP,VKIKvBi5a"><field name="NUM">500</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="l?-z+A:}.Ryx`SZ5Fp5{" x="-35" y="340"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="@I4O/?rMfLIJ.w*I_n(`"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        # # # # # 
+        . . # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="DU|~rR~$8tH{4v0wlt-)"><value name="pause"><shadow type="timePicker" id="/4i}dFqI?,Zgdpmhh?c="><field name="ms">1000</field></shadow></value><next><block type="RBRotatems" id="7$SnFzj$AN7qUBvIfM+h"><field name="direction">RBRobotDirection.Right</field><value name="speed"><shadow type="math_number_minmax" id="+7T7#pBW2DUVh9/Qq@hx"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">100</field></shadow></value><value name="milliseconds"><shadow type="math_number" id="vv1u[Oss^nhfNYEskpI@"><field name="NUM">500</field></shadow></value></block></next></block></next></block></statement></block></xml>
