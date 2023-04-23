@@ -1,5 +1,6 @@
 {
     "name": "robo bit button controll",
+    "version": "0.1.0",
     "description": "",
     "dependencies": {
         "core": "*",
