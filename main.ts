@@ -21,6 +21,8 @@ input.onButtonPressed(Button.B, function () {
         . . # . .
         `)
     basic.pause(1000)
+    robobit.goms(RBDirection.Reverse, 20, 1000)
+    basic.pause(500)
     robobit.rotatems(RBRobotDirection.Right, 100, 500)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -32,6 +34,8 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
         . . # . .
         `)
     basic.pause(1000)
-    robobit.goms(RBDirection.Forward, 60, 2000)
+    robobit.goms(RBDirection.Reverse, 20, 1000)
+    basic.pause(500)
+    robobit.goms(RBDirection.Forward, 60, 1500)
 })
 robobit.select_model(RBModel.Mk3)
